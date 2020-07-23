@@ -16,7 +16,7 @@
 .menu {
     margin: 0 30px 0 0;
 }
-.menu a {
+.menu .nav-link {
     clear: right;
     text-decoration: none;
     color: gray;
@@ -24,8 +24,8 @@
     line-height: 70px;
 }
 
-span {
-    color: #54D17A;
+.menu .nav-link:hover {
+    border-bottom: 1.4px solid #54D17A;
 }
 
 label {
@@ -39,7 +39,6 @@ label {
 #toggle {
     display: none;
 }
-
 
 @media only screen and (max-width: 768px) {
     label {
